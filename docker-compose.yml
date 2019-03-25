@@ -1,0 +1,12 @@
+version: '2.3'
+services:
+    tensorflow:
+        container_name: my_gpu
+        build: .
+        volumes:
+          - .:/usr/src/app
+        runtime: nvidia
+        tty: true
+        command: /bin/bash
+        ports:
+            - 8888:8888

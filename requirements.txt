@@ -1,0 +1,13 @@
+Pillow
+numpy
+pandas
+keras
+torch
+torchvision
+sklearn
+jupyter-contrib-nbextensions
+jupyter-nbextensions-configurator
+opencv-python
+tqdm
+salem
+rasterio
