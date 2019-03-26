@@ -11,3 +11,6 @@ opencv-python
 tqdm
 salem
 rasterio
+pyproj
+netcdf4
+xarray

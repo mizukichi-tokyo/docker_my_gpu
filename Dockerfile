@@ -10,6 +10,8 @@ RUN apt-get update -y && \
     python3-setuptools \
     python3-wheel
 
+RUN apt-get install -y python-qt4
+
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
